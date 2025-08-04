@@ -267,7 +267,7 @@ void Flash_Read_Array(uint32_t address, uint8_t *arr, uint16_t len)
 		}
 		else if(AP_Infor_cache.mode_boot == BOOT_INTO_APPLICATION){		// jump to application program
 			
-			uint8_t check_array[27];
+			uint8_t check_array[30];
 			uint8_t app_exist = 0;
 			
 			Flash_Read_Array(ADDRESS_BOUNDARY_APP_START, check_array, 30);

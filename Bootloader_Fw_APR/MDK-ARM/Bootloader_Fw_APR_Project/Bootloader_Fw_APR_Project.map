@@ -2678,7 +2678,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      7870          8          0         39        117      30636   bootloader.o
+      7870          8          0         39        117      30654   bootloader.o
        562          0          0          0        184      10949   main.o
       1616          8          0          2         26       5611   socket.o
         68         28        600          0       1536        956   startup_stm32h503xx.o
@@ -2701,7 +2701,7 @@ Image component sizes
       2004         22          0         44          5      13319   wizchip_conf.o
 
     ----------------------------------------------------------------------
-     25574         92        648        176       1880     206063   Object Totals
+     25574         92        648        176       1880     206081   Object Totals
          0          0         32          0          0          0   (incl. Generated)
        116          0          0          4          8          0   (incl. Padding)
 
@@ -2758,8 +2758,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     26372        108        648        176       1976     206431   Grand Totals
-     26372        108        648        176       1976     206431   ELF Image Totals
+     26372        108        648        176       1976     206449   Grand Totals
+     26372        108        648        176       1976     206449   ELF Image Totals
      26372        108        648        176          0          0   ROM Totals
 
 ==============================================================================
